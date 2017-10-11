@@ -14,7 +14,7 @@ _Some of these APIs and Components are not final and are subject to change!_
 
 ## Installation
 ```sh
-npm install ng2-toasty --save
+npm install ng2-toasty-gamebench --save
 ```
 
 ## Demo
@@ -52,7 +52,7 @@ The `forRoot` method is a convention for modules that provide a singleton servic
 ```ts
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from '@angular/core';
-import {ToastyModule} from 'ng2-toasty';
+import {ToastyModule} from 'ng2-toasty-gamebench';
 
 @NgModule({
     imports: [
@@ -81,11 +81,11 @@ export class SharedModule {
 ```
 
 #### 3. Use the `ToastyService` for your application
-- Import `ToastyService` from `ng2-toasty` in your application code:
+- Import `ToastyService` from `ng2-toasty-gamebench` in your application code:
 
 ```js
 import {Component} from '@angular/core';
-import {ToastyService, ToastyConfig, ToastOptions, ToastData} from 'ng2-toasty';
+import {ToastyService, ToastyConfig, ToastOptions, ToastData} from 'ng2-toasty-gamebench';
 
 @Component({
     selector: 'app',
@@ -135,7 +135,7 @@ Here is an example of how to dynamically update message and title of individual 
 
 ```js
 import {Component} from '@angular/core';
-import {ToastyService, ToastyConfig, ToastyComponent, ToastOptions, ToastData} from 'ng2-toasty';
+import {ToastyService, ToastyConfig, ToastyComponent, ToastOptions, ToastData} from 'ng2-toasty-gamebench';
 import {Subject, Observable, Subscription} from 'rxjs/Rx';
 
 @Component({
