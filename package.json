@@ -1,7 +1,7 @@
 {
   "name": "ng2-toasty-gamebench",
   "description": "Angular2 Toasty component shows growl-style alerts and messages for your web app - now with more clicking!",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "test": "karma start",
     "test-watch": "tsc && karma start --no-single-run --auto-watch",
