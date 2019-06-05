@@ -41,9 +41,9 @@ export class ToastComponent {
    * This method emit new event into ToastyContainer to close it.
    */
   click($event: any) {
-    $event.preventDefault();
+    // $event.preventDefault();
     if (this.toast.onClick && isFunction(this.toast.onClick)) {
-      this.toast.onClick.call(this, this.toast);
+      this.toast.onClick.call(this, $event, this.toast);
     }
   }
 }
