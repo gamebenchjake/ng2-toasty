@@ -1,7 +1,7 @@
 {
-  "name": "ng2-toasty-gamebench",
+  "name": "gamebench-ng-toasty",
   "description": "Angular2 Toasty component shows growl-style alerts and messages for your web app - now with more clicking!",
-  "version": "0.0.4",
+  "version": "6.0.1",
   "scripts": {
     "test": "karma start",
     "test-watch": "tsc && karma start --no-single-run --auto-watch",
@@ -31,15 +31,16 @@
   "typings": "index.d.ts",
   "homepage": "https://github.com/gamebenchjake/ng2-toasty-gamebench",
   "peerDependencies": {
-    "@angular/core": "^2.4.7 || ^4.0.0"
+    "@angular/core": "^2.4.7 || ^4.0.0 || ^6.0.0",
+    "rxjs": "^5.4.0 || ^6.0.0"
   },
   "devDependencies": {
-    "@angular/common": "^2.4.7 || ^4.0.0",
-    "@angular/compiler": "^2.4.7 || ^4.0.0",
-    "@angular/compiler-cli": "^2.4.7 || ^4.0.0",
-    "@angular/core": "^2.4.7 || ^4.0.0",
-    "@angular/platform-browser": "^2.4.7 || ^4.0.0",
-    "@angular/platform-browser-dynamic": "^2.4.7 || ^4.0.0",
+    "@angular/common": "^2.4.7 || ^4.0.0 || ^6.0.0",
+    "@angular/compiler": "^2.4.7 || ^4.0.0 || ^6.0.0",
+    "@angular/compiler-cli": "^2.4.7 || ^4.0.0 || ^6.0.0",
+    "@angular/core": "^2.4.7 || ^4.0.0 || ^6.0.0",
+    "@angular/platform-browser": "^2.4.7 || ^4.0.0 || ^6.0.0",
+    "@angular/platform-browser-dynamic": "^2.4.7 || ^4.0.0 || ^6.0.0",
     "@types/hammerjs": "^2.0.34",
     "@types/jasmine": "^2.5.51",
     "@types/node": "^7.0.29",
@@ -62,7 +63,7 @@
     "karma-webpack": "^2.0.3",
     "loader-utils": "^1.1.0",
     "reflect-metadata": "^0.1.10",
-    "rxjs": "^5.4.0",
+    "rxjs": "^5.4.0 || ^6.0.0",
     "semantic-release": "^6.3.6",
     "source-map-loader": "^0.2.1",
     "ts-helpers": "^1.1.2",

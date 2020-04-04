@@ -115,9 +115,6 @@
   text-transform: uppercase;
   font-size: 13px;
 }
-#toasty .toast.toasty-theme-material .toast-text .toast-msg {
-  /**/
-}
 #toasty .toast.toasty-theme-material .toast-text a,
 #toasty .toast.toasty-theme-material .toast-text label {
   color: #ffffff;

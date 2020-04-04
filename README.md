@@ -1,3 +1,5 @@
+Forked from https://github.com/gamebenchjake/ng2-toasty-gamebench which was initialy forked from https://github.com/akserg/ng2-toasty
+
 # Angular 2 Toasty [![npm version](https://badge.fury.io/js/ng2-toasty.svg)](https://badge.fury.io/js/ng2-toasty) [![npm monthly downloads](https://img.shields.io/npm/dm/ng2-toasty.svg?style=flat-square)](https://www.npmjs.com/package/ng2-toasty)
 Angular2 Toasty component shows growl-style alerts and messages for your application.
 
@@ -136,7 +138,7 @@ Here is an example of how to dynamically update message and title of individual 
 ```js
 import {Component} from '@angular/core';
 import {ToastyService, ToastyConfig, ToastyComponent, ToastOptions, ToastData} from 'ng2-toasty-gamebench';
-import {Subject, Observable, Subscription} from 'rxjs/Rx';
+import {Subject, Observable, Subscription} from 'rxjs';
 
 @Component({
     selector: 'app',
@@ -207,7 +209,7 @@ Here is an example of how to close an individual toast:
 ```js
 import {Component} from '@angular/core';
 import {ToastyService, ToastyConfig, ToastyComponent, ToastOptions, ToastData} from 'ng2-toasty';
-import {Subject, Observable, Subscription} from 'rxjs/Rx';
+import {Subject, Observable, Subscription} from 'rxjs';
 
 @Component({
     selector: 'app',

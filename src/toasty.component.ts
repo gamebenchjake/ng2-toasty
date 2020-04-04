@@ -136,7 +136,7 @@ export class ToastyComponent implements OnInit {
    * Clear all toasts
    */
   clearAll() {
-    this.toasts.forEach((value: any, key: number) => {
+    this.toasts.forEach(value => {
       if (value.onRemove && isFunction(value.onRemove)) {
         value.onRemove.call(this, value);
       }
