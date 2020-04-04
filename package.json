@@ -1,6 +1,6 @@
 {
-  "name": "gamebench-ng-toasty",
-  "description": "Angular2 Toasty component shows growl-style alerts and messages for your web app - now with more clicking!",
+  "name": "ngx-toasty",
+  "description": "Angular Toasty component shows growl-style alerts and messages for your web app - now with more clicking!",
   "version": "6.0.1",
   "scripts": {
     "test": "karma start",
